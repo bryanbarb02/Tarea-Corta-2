@@ -7,6 +7,28 @@
     android:background="@android:color/background_light"
     tools:context=".MainActivity">
 
+    <Button
+        android:id="@+id/bsort"
+        android:layout_width="160dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@android:color/holo_orange_dark"
+        android:text="Bubble Sort"
+        android:textColorLink="@android:color/transparent"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.961"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.735" />
+
     <TextView
         android:id="@+id/textView1"
         android:layout_width="38dp"
@@ -130,8 +152,8 @@
 
     <Button
         android:id="@+id/ssort"
-        android:layout_width="185dp"
-        android:layout_height="84dp"
+        android:layout_width="160dp"
+        android:layout_height="83dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
@@ -145,14 +167,14 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.043"
+        app:layout_constraintHorizontal_bias="0.038"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.734" />
+        app:layout_constraintVertical_bias="0.735" />
 
     <Button
         android:id="@+id/Desarreglar"
-        android:layout_width="138dp"
+        android:layout_width="158dp"
         android:layout_height="67dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
@@ -168,6 +190,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.95" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="350dp"
+        android:layout_height="240dp"
+        android:src="@drawable/grafico"
+        android:visibility="visible"
+        app:srcCompat="@android:color/transparent"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:srcCompat="@drawable/grafico" />
 
 
 </android.support.constraint.ConstraintLayout>
